@@ -11,11 +11,18 @@ body {
   padding: 16px;
   border: 2px solid #ccc;
   border-radius: 8px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #imageA img {
   width: 200px;  /* smaller so text fits nicely on the right */
   height: auto;  /* keeps proportions */
+}
+
+#imageA img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .info {
