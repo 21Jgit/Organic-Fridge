@@ -1,22 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Awesome Designs I made</title>
-	<link rel="stylesheet" href="style.css">
-</head>
+body {
+  background-color: lightblue;
+}
 
-<body>
-	<h1>Welcome to my design page where I post all my <i>amazing</i> designs</h1>
-	<div id="imageA">
-		<h2>1. <b>Organic Fridge</b></h2>
-		<img src="Design Pic.png" alt="Organic Fridge Front">
-		<div class="info">
-			<h2>Organic Fridge is an upcoming company that asked me to create some designs for their new Organic Butter</h2>
-			<p>I created the logo and its design myself.</p>
-			<p>The product will be releasing in select stores very soon, I'm so happy to know it's coming now.</p>
-			<p>Organic Fridge is dedicated to an Organic alternitive to foods and drinks, they are also going to be having a go at milk and hopefuly much more soon</p>
-		</div>
-	</div>
-</body>
 
-</html>
+#imageA {
+  display: flex;
+  align-items: center; /* vertically centers image and text */
+  gap: 20px;           /* space between image and text */
+  background-color: white;
+  padding: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#imageA img {
+  width: 200px;  /* smaller so text fits nicely on the right */
+  height: auto;  /* keeps proportions */
+}
+
+#imageA img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.info {
+  color: green;
+}
