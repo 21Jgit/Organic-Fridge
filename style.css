@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+
+
+#imageA {
+  display: flex;
+  align-items: center; /* vertically centers image and text */
+  gap: 20px;           /* space between image and text */
+  background-color: white;
+  padding: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+#imageA img {
+  width: 200px;  /* smaller so text fits nicely on the right */
+  height: auto;  /* keeps proportions */
+}
+
+.info {
+  color: green;
+}
