@@ -13,12 +13,13 @@ body {
   border: 2px solid #ccc;
   border-radius: 8px;
 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #imageA img {
-  width: 200px;  /* smaller so text fits nicely on the right */
-  height: auto;  /* keeps proportions */
+  width: 200px;
+  height: auto;
+  transition: transform 1s ease-in-out;
 }
 
 #imageA img:hover {
