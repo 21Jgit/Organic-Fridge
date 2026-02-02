@@ -27,7 +27,7 @@ body {
   transition: transform 0.5s ease;
 }
 
-#imageA h2:hover {
+#tag:hover {
   transform: scale(1.1);
 }
 
