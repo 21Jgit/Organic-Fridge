@@ -4,25 +4,25 @@ body {
 
 
 
-#imageA {
+.container {
   display: flex;
   align-items: center; /* vertically centers image and text */
   gap: 20px;           /* space between image and text */
   background-color: white;
   padding: 16px;
   border: 2px solid #ccc;
-  border-radius: 8px;
+  border-radius: 8px;s
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#imageA img {
+.container img {
   width: 200px;
   height: auto;
   transition: transform 1s ease-in-out;
 }
 
-#imageA img:hover {
+.container img:hover {
   transform: scale(1.1);
   transition: transform 0.5s ease;
 }
